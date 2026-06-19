@@ -126,7 +126,7 @@ from agno.models.groq import Groq
 MAX_PDF_SIZE_MB = 50
 MAX_PAGES = 100
 MAX_CHARS =  15000 # ~110k tokens
-groq_api_key = st.secrets["GROQ_API_KEY"]
+groq_api_key = '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'
 
 def extract_pdf_text(file_bytes: bytes, filename: str) -> tuple[str, list[str]]:
     """
